@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import CopyrightIcon from '@mui/icons-material/Copyright';
+import logo from '../../../public/aviera_logo.png'
 
 export default function Footer() {
   return (
@@ -14,12 +15,14 @@ export default function Footer() {
         <div className='flex flex-col md:w-1/5 lg:w-1/4'>
           <Image
             className='mb-4'
-            src={require('./../../../public/aviera_logo.png')}
+            src={logo}
             alt="Close Nav Bar"
-            height={100}
-            width={100}
+            style={{
+              width: '50%',
+              height: 'auto',
+            }}
           />
-          <p className='text-sm lg:text-sm 2xl:text-lg'>
+          <p className='text-sm lg:text-sm 2xl:text-lg leading-10'>
             Get education on business planning,
             direct access to planning experts and a
             funding the valuable platform.
@@ -68,10 +71,10 @@ export default function Footer() {
             <div className='flex flex-col'>
               <p className='mb-8 text-sm lg:text-sm	lg:mb-12 2xl:text-lg'>You will find your next business quote you prefer.</p>
               <div className='flex flex-row'>
-                <FacebookIcon className='text-4xl mr-2' />
-                <InstagramIcon className='text-4xl mr-2' />
-                <TwitterIcon className='text-4xl mr-2' />
-                <YouTubeIcon className='text-4xl mr-2' />
+                <FacebookIcon className='text-4xl mr-2 lg:mr-4' />
+                <InstagramIcon className='text-4xl mr-2 lg:mr-4' />
+                <TwitterIcon className='text-4xl mr-2 lg:mr-4' />
+                <YouTubeIcon className='text-4xl mr-2 lg:mr-4' />
               </div>
             </div>
           </div>
