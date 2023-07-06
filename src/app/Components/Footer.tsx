@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import Image from 'next/image'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -8,13 +9,16 @@ import CopyrightIcon from '@mui/icons-material/Copyright';
 
 export default function Footer() {
   return (
-    <div
-      // className='p-10'
-      style={{ backgroundColor: 'rgba(22, 29, 73, 255)', color: "#fff" }}
-    >
+    <div style={{ backgroundColor: 'rgba(22, 29, 73, 255)', color: "#fff" }}>
       <div className='flex flex-col md:flex-row justify-between p-10 md:p-20'>
         <div className='flex flex-col md:w-1/5 p-3'>
-          <span className='mb-4 mt-4'>Logo</span>
+          <Image
+            className='mb-4'
+            src={require('./../../../public/aviera_logo.png')}
+            alt="Close Nav Bar"
+            height={100}
+            width={100}
+          />
           <p className='text-sm'>
             Get education on business planning,
             direct access to planning experts and a
@@ -24,7 +28,7 @@ export default function Footer() {
 
         <div className='flex flex-col justify-start items-center md:w-1/5 p-3'>
           <div>
-            <h1 className='mb-2 mt-4 font-bold '>Company</h1>
+            <h1 className='mb-2 md:mb-4 mt-4 font-bold '>Company</h1>
             <div className='flex flex-col '>
               <a className='text-sm mb-3' href=''>About Us</a>
               <a className='text-sm mb-3' href=''>Our Story</a>
@@ -36,7 +40,7 @@ export default function Footer() {
 
         <div className='flex flex-col justify-start items-center md:w-1/5 p-3'>
           <div>
-            <h1 className='mb-2 mt-4 font-bold'>Solution</h1>
+            <h1 className='mb-2 md:mb-4 mt-4 font-bold'>Solution</h1>
             <div className='flex flex-col'>
               <a className='text-sm mb-3' href=''>Customer Support</a>
               <a className='text-sm mb-3' href=''>Delivery Details</a>
@@ -49,7 +53,7 @@ export default function Footer() {
 
         <div className='flex flex-col justify-start items-center md:w-1/5 p-3'>
           <div>
-            <h1 className='mb-2 mt-4 font-bold'>Policies</h1>
+            <h1 className='mb-2 md:mb-4 mt-4 font-bold'>Policies</h1>
             <div className='flex flex-col'>
               <a className='text-sm mb-3' href=''>Security Safeguards</a>
               <a className='text-sm mb-3' href=''>Terms of Service</a>
@@ -61,7 +65,7 @@ export default function Footer() {
 
         <div className='flex flex-col justify-start items-center md:w-1/5 p-3'>
           <div>
-            <h1 className='mb-2 mt-4 font-bold'>Contact Us</h1>
+            <h1 className='mb-2 md:mb-4 mt-4 font-bold'>Contact Us</h1>
             <div className='flex flex-col'>
               <p className='mb-8 text-sm'>You will find your next business quote you prefer.</p>
               <div className='flex flex-row mb-8'>
