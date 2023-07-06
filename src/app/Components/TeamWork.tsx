@@ -10,7 +10,7 @@ export default function TeamWork() {
         produce over a certain period. A productive workplace.
       </p>
       <div className='grid grid-cols-1 gap-5 md:flex'>
-        <div className='w-full bg-white p-2 rounded'>
+        <div className='w-full bg-white p-2 rounded md:h-1/5'>
           <Image
             className='mb-4 rounded'
             src={require('./../../../public/team_img1.jpg')}
@@ -38,7 +38,7 @@ export default function TeamWork() {
           <span className='text-xs mt-2'>See More</span>
         </div>
 
-        <div className='w-full bg-white p-2 rounded'>
+        <div className='w-full bg-white p-2 rounded md:h-1/5'>
           <Image
             className='mb-4 rounded'
             src={require('./../../../public/team_img3.jpg')}
