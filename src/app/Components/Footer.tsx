@@ -66,16 +66,14 @@ export default function Footer() {
         </div>
 
         <div className='flex flex-col justify-start md:items-center md:w-1/5 '>
-          <div>
-            <h1 className='mb-2 md:mb-4 lg:mb-18 font-semibold lg:text-2xl'>Contact Us</h1>
-            <div className='flex flex-col'>
-              <p className='mb-8 text-sm lg:text-sm	lg:mb-12 2xl:text-lg'>You will find your next business quote you prefer.</p>
-              <div className='flex flex-row'>
-                <FacebookIcon className='text-4xl mr-2 lg:mr-4' />
-                <InstagramIcon className='text-4xl mr-2 lg:mr-4' />
-                <TwitterIcon className='text-4xl mr-2 lg:mr-4' />
-                <YouTubeIcon className='text-4xl mr-2 lg:mr-4' />
-              </div>
+          <div className='flex flex-col justify-between'>
+            <h1 className='mb-2 md:mb-4 font-semibold lg:text-2xl'>Contact Us</h1>
+            <p className='mb-2 md:mb-4 text-sm lg:text-sm 2xl:text-lg'>You will find your next business quote you prefer.</p>
+            <div className='flex flex-row'>
+              <FacebookIcon className='text-4xl mr-2 lg:mr-4' />
+              <InstagramIcon className='text-4xl mr-2 lg:mr-4' />
+              <TwitterIcon className='text-4xl mr-2 lg:mr-4' />
+              <YouTubeIcon className='text-4xl mr-2 lg:mr-4' />
             </div>
           </div>
         </div>
