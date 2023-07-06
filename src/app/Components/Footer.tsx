@@ -22,7 +22,7 @@ export default function Footer() {
               height: 'auto',
             }}
           />
-          <p className='text-sm lg:text-sm'>
+          <p className='text-sm '>
             Get education on business planning,
             direct access to planning experts and a
             funding the valuable platform.
@@ -31,44 +31,44 @@ export default function Footer() {
 
         <div className='flex flex-col justify-start md:items-center md:w-1/5 lg:w-1/4'>
           <div>
-            <h1 className='mb-2 md:mb-4 font-semibold lg:text-xl'>Company</h1>
+            <h1 className='mb-2 font-semibold lg:text-lg'>Company</h1>
             <div className='flex flex-col'>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>About Us</a>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Our Story</a>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Careers</a>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Press Center</a>
+              <a className='text-sm mb-2 hover:underline' href=''>About Us</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Our Story</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Careers</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Press Center</a>
             </div>
           </div>
         </div>
 
         <div className='flex flex-col justify-start md:items-center md:w-1/5 '>
           <div>
-            <h1 className='mb-2 md:mb-4 font-semibold lg:text-xl'>Solution</h1>
+            <h1 className='mb-2 font-semibold lg:text-lg'>Solution</h1>
             <div className='flex flex-col'>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Customer Support</a>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Delivery Details</a>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Terms and Condition</a>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Works</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Customer Support</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Delivery Details</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Terms and Condition</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Works</a>
             </div>
           </div>
         </div>
 
         <div className='flex flex-col justify-start md:items-center md:w-1/5 '>
           <div>
-            <h1 className='mb-2 md:mb-4 font-semibold lg:text-xl'>Policies</h1>
+            <h1 className='mb-2 font-semibold lg:text-lg'>Policies</h1>
             <div className='flex flex-col'>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Security Safeguards</a>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Terms of Service</a>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Privacy</a>
-              <a className='text-sm mb-2 lg:text-sm hover:underline' href=''>Accessibility</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Security Safeguards</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Terms of Service</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Privacy</a>
+              <a className='text-sm mb-2 hover:underline' href=''>Accessibility</a>
             </div>
           </div>
         </div>
 
         <div className='flex flex-col justify-start md:items-center md:w-1/5'>
           <div>
-            <h1 className='mb-2 md:mb-4 font-semibold lg:text-xl'>Contact Us</h1>
-            <p className='mb-2 md:mb-4 text-sm lg:text-sm'>You will find your next business quote you prefer.</p>
+            <h1 className='mb-2 font-semibold lg:text-lg'>Contact Us</h1>
+            <p className='mb-2 text-sm '>You will find your next business quote you prefer.</p>
             <div className='flex flex-row'>
               <FacebookIcon className='text-3xl mr-2 lg:mr-4' />
               <InstagramIcon className='text-3xl mr-2 lg:mr-4' />
@@ -82,7 +82,7 @@ export default function Footer() {
       <div className='w-full py-5 md:py-10 2xl:py-14 flex justify-center border-t	border-t-slate-600'>
         <div className='flex flex-row items-center'>
           <CopyrightIcon className='mr-1 text-lg' />
-          <h1 className='text-xs md:text-sm'>2023 Aviera. All rights reserved.</h1>
+          <h1 className='text-xs'>2023 Aviera. All rights reserved.</h1>
         </div>
       </div>
     </div>
