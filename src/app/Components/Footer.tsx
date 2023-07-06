@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div style={{ backgroundColor: 'rgba(22, 29, 73, 255)', color: "#fff" }}>
       <div className='flex flex-col md:flex-row justify-between p-10 md:p-20'>
-        <div className='flex flex-col md:w-1/5 p-3'>
+        <div className='flex flex-col md:w-1/5'>
           <Image
             className='mb-4'
             src={require('./../../../public/aviera_logo.png')}
@@ -26,7 +26,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className='flex flex-col justify-start md:items-center md:w-1/5 p-3'>
+        <div className='flex flex-col justify-start md:items-center md:w-1/5 '>
           <div>
             <h1 className='mb-2 md:mb-4 mt-4 font-bold '>Company</h1>
             <div className='flex flex-col '>
@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className='flex flex-col justify-start md:items-center md:w-1/5 p-3'>
+        <div className='flex flex-col justify-start md:items-center md:w-1/5 '>
           <div>
             <h1 className='mb-2 md:mb-4 mt-4 font-bold'>Solution</h1>
             <div className='flex flex-col'>
@@ -51,7 +51,7 @@ export default function Footer() {
 
         </div>
 
-        <div className='flex flex-col justify-start md:items-center md:w-1/5 p-3'>
+        <div className='flex flex-col justify-start md:items-center md:w-1/5 '>
           <div>
             <h1 className='mb-2 md:mb-4 mt-4 font-bold'>Policies</h1>
             <div className='flex flex-col'>
@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className='flex flex-col justify-start md:items-center md:w-1/5 p-3'>
+        <div className='flex flex-col justify-start md:items-center md:w-1/5 '>
           <div>
             <h1 className='mb-2 md:mb-4 mt-4 font-bold'>Contact Us</h1>
             <div className='flex flex-col'>
