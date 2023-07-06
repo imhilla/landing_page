@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 export default function TeamWork() {
   return (
-    <div className='min-h-screen bg-slate-200 px-10 md:p-20 flex flex-col justify-center items-center w-full py-10'>
-      <h1 className='font-semibold mb-4 md:mb-6 text-2xl md:text-4xl md:w-1/2 md:text-center'>This is an excellent place for your team to work</h1>
-      <p className='text-lg mb-4 self-start md:self-center md:text-center md:w-1/3 md:py-3'>
+    <div className='min-h-screen bg-slate-200 p-10 md:p-20 flex flex-col justify-center items-center w-full lg:p-20'>
+      <h1 className='font-semibold mb-4 text-2xl md:text-4xl'>This is an excellent place for your team to work</h1>
+      <p className='text-sm mb-4 self-start md:self-center md:text-center md:w-1/2 md:py-3'>
         Workplace productivity relates to the amount of work that your staff can
         produce over a certain period. A productive workplace.
       </p>

@@ -22,7 +22,7 @@ export default function Footer() {
               height: 'auto',
             }}
           />
-          <p className='text-sm '>
+          <p className='text-sm'>
             Get education on business planning,
             direct access to planning experts and a
             funding the valuable platform.
@@ -68,12 +68,12 @@ export default function Footer() {
         <div className='flex flex-col justify-start md:items-center md:w-1/5'>
           <div>
             <h1 className='mb-2 font-semibold lg:text-lg'>Contact Us</h1>
-            <p className='mb-2 text-sm '>You will find your next business quote you prefer.</p>
+            <p className='mb-2 text-sm md:mb-8'>You will find your next business quote you prefer.</p>
             <div className='flex flex-row'>
-              <FacebookIcon className='text-3xl mr-2 lg:mr-4' />
-              <InstagramIcon className='text-3xl mr-2 lg:mr-4' />
-              <TwitterIcon className='text-3xl mr-2 lg:mr-4' />
-              <YouTubeIcon className='text-3xl mr-2 lg:mr-4' />
+              <FacebookIcon className='text-3xl mr-2 lg:mr-4 cursor-pointer' />
+              <InstagramIcon className='text-3xl mr-2 lg:mr-4 cursor-pointer' />
+              <TwitterIcon className='text-3xl mr-2 lg:mr-4 cursor-pointer' />
+              <YouTubeIcon className='text-3xl mr-2 lg:mr-4 cursor-pointer' />
             </div>
           </div>
         </div>
