@@ -16,7 +16,7 @@ export default function Footer() {
         <div className='flex flex-col'>
           <span className='mb-4'>Logo</span>
           <div>
-            <p>
+            <p className='text-sm'>
               Get education on business planning,
               direct access to planning experts and a
               funding the valuable platform.
@@ -27,37 +27,37 @@ export default function Footer() {
         <div className='flex flex-col justify-between'>
           <h1 className='mb-4 mt-4 font-bold'>Company</h1>
           <div className='flex flex-col'>
-            <a href=''>About Us</a>
-            <a href=''>Our Story</a>
-            <a href=''>Careers</a>
-            <a href=''>Press Center</a>
+            <a className='text-sm mb-2' href=''>About Us</a>
+            <a className='text-sm mb-2' href=''>Our Story</a>
+            <a className='text-sm mb-2' href=''>Careers</a>
+            <a className='text-sm mb-2' href=''>Press Center</a>
           </div>
         </div>
 
         <div className='flex flex-col justify-between'>
           <h1 className='mb-4 mt-4 font-bold'>Solution</h1>
           <div className='flex flex-col'>
-            <a href=''>Customer Support</a>
-            <a href=''>Delivery Details</a>
-            <a href=''>Terms and Condition</a>
-            <a href=''>Works</a>
+            <a className='text-sm mb-2' href=''>Customer Support</a>
+            <a className='text-sm mb-2' href=''>Delivery Details</a>
+            <a className='text-sm mb-2' href=''>Terms and Condition</a>
+            <a className='text-sm mb-2' href=''>Works</a>
           </div>
         </div>
 
         <div className='flex flex-col justify-between'>
           <h1 className='mb-4 mt-4 font-bold'>Policies</h1>
           <div className='flex flex-col'>
-            <a href=''>Security Safeguards</a>
-            <a href=''>Terms of Service</a>
-            <a href=''>Privacy</a>
-            <a href=''>Accessibility</a>
+            <a className='text-sm mb-2' href=''>Security Safeguards</a>
+            <a className='text-sm mb-2' href=''>Terms of Service</a>
+            <a className='text-sm mb-2' href=''>Privacy</a>
+            <a className='text-sm mb-2' href=''>Accessibility</a>
           </div>
         </div>
 
         <div className='flex flex-col justify-between'>
           <h1 className='mb-4 mt-4 font-bold'>Contact Us</h1>
           <div className='flex flex-col'>
-            <p className='mb-8'>You will find your next business quote you prefer</p>
+            <p className='mb-8 text-sm'>You will find your next business quote you prefer.</p>
             <div className='flex flex-row mb-8'>
               <FacebookIcon />
               <InstagramIcon />
@@ -69,9 +69,9 @@ export default function Footer() {
       </div>
 
       <div className='w-full'>
-        <div className='flex flex-row'>
+        <div className='flex flex-row items-center'>
           <CopyrightIcon className='mr-2' />
-          <h1>2023 Sark. All rights reserved</h1>
+          <h1 className='text-sm'>2023 Sark. All rights reserved</h1>
         </div>
       </div>
     </div>
