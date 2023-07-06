@@ -81,8 +81,8 @@ export default function Footer() {
 
       <div className='w-full py-5 md:py-9 flex justify-center border-t	border-t-slate-600'>
         <div className='flex flex-row items-center'>
-          <CopyrightIcon className='mr-2' />
-          <h1 className='text-sm md:text-base'>2023 Sark. All rights reserved</h1>
+          <CopyrightIcon className='mr-1' />
+          <h1 className='text-sm md:text-base'>2023 Aviera. All rights reserved</h1>
         </div>
       </div>
     </div>
