@@ -11,7 +11,7 @@ import logo from '../../../public/aviera_logo.png'
 export default function Footer() {
   return (
     <div style={{ backgroundColor: 'rgba(22, 29, 73, 255)', color: "#fff" }}>
-      <div className='flex flex-col md:flex-row justify-between p-10 md:p-20 lg:p-30 2xl:p-40'>
+      <div className='flex flex-col md:flex-row justify-between p-10 md:p-20 lg:p-30 2xl:p-40 md:items-start'>
         <div className='flex flex-col md:w-1/5 lg:w-1/4'>
           <Image
             className='mb-4'
@@ -65,8 +65,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className='flex flex-col justify-start md:items-center md:w-1/5 '>
-          <div className='flex flex-col justify-between'>
+        <div className='flex flex-col justify-start md:items-center md:w-1/5'>
+          <div>
             <h1 className='mb-2 md:mb-4 font-semibold lg:text-xl'>Contact Us</h1>
             <p className='mb-2 md:mb-4 text-sm lg:text-sm'>You will find your next business quote you prefer.</p>
             <div className='flex flex-row'>
