@@ -3,11 +3,15 @@ import TopSection from './Components/TopSection'
 import Footer from './Components/Footer'
 import FutureOfWorking from './Components/FutureOfWorking'
 import TeamWork from './Components/TeamWork'
+import GetInWorkSpace from './Components/GetInWorkSpace'
+import ModernConviniences from './Components/ModernConviniences'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-50">
+    <main className="min-h-screen bg-slate-50 font-sans">
       <TopSection />
+      <ModernConviniences />
+      <GetInWorkSpace />
       <TeamWork />
       <FutureOfWorking />
       <Footer />

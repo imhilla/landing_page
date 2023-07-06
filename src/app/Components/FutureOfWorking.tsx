@@ -4,8 +4,8 @@ export default function FutureOfWorking() {
   return (
     <div className='min-h-screen bg-white px-10 md:p-20 flex flex-col md:flex-row w-full py-10'>
       <div className='flex flex-col justify-center items-center md:w-1/2'>
-        <h1 className='font-bold mb-4 self-start md:mb-6 text-2xl md:text-3xl '>Future of working is here</h1>
-        <p className='text-sm mb-4 self-start md:w-3/4 '>
+        <h1 className='font-bold mb-4 self-start md:mb-6 text-2xl md:text-4xl'>Future of working is here</h1>
+        <p className='text-lg mb-4 self-start md:w-3/4 '>
           Workplace productivity relates to the amount of work that your staff can
           produce over a certain period. A productive workplace more engaged employees and
           improved performance metrics.
