@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import futureOfWork from '../../../public/futureofwork.png'
 
 export default function FutureOfWorking() {
   return (
@@ -29,8 +31,16 @@ export default function FutureOfWorking() {
           </div>
         </div>
       </div>
-      <div className='md:w-1/2'>
-        image
+      <div className='md:w-1/2 flex justify-center items-center'>
+        <Image
+          className='mb-8 md:mb-0'
+          src={futureOfWork}
+          alt="Close Nav Bar"
+          style={{
+            width: '80%',
+            height: 'auto',
+          }}
+        />
       </div>
     </div>
   )
