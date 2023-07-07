@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FutureOfWorking() {
   return (
-    <div className='min-h-screen bg-white p-10 md:p-20 lg:p-20 flex flex-col md:flex-row w-full 2xl:p-40 '>
+    <div className='min-h-screen bg-white p-10 md:p-20 lg:p-20 flex flex-col md:flex-row w-full 2xl:p-40'>
       <div className='flex flex-col justify-center items-center md:w-1/2'>
         <h1 className='font-semibold mb-4 self-start text-2xl md:text-4xl'>Future of working is here</h1>
         <p className='text-sm md:pr-8'>

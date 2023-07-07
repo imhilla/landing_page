@@ -1,5 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
+import TeamOne from '../../../public/team_img1.jpg'
+import TeamTwo from '../../../public/team_img2.jpg'
+import TeamThree from '../../../public/team_img3.jpg'
 
 export default function TeamWork() {
   return (
@@ -13,41 +16,47 @@ export default function TeamWork() {
         <div className='w-full bg-white p-4 rounded md:h-1/5'>
           <Image
             className='mb-4 rounded'
-            src={require('./../../../public/team_img1.jpg')}
+            src={TeamOne}
             alt="Close Nav Bar"
-            height={300}
-          // width={300}
+            style={{
+              width: '100%',
+              height: 'auto',
+            }}
           />
           <h1 className='font-semibold text-lg'>Increase Productivity</h1>
-          <h1 className='text-xs mt-2'>See More</h1>
+          <h1 className='text-xs mt-2 hover:cursor-pointer text-blue-600'>See More</h1>
         </div>
 
         <div className='w-full bg-white p-4 rounded'>
           <Image
             className='mb-4 rounded'
-            src={require('./../../../public/team_img2.jpg')}
+            src={TeamTwo}
             alt="Close Nav Bar"
-          // height={300}
-          // width={100}
+            style={{
+              width: '100%',
+              height: 'auto',
+            }}
           />
           <h1 className='font-semibold text-lg'>Enjoy your Work</h1>
           <p className='text-sm mt-2'>
             Workplace productivity relates to the amount of work that your staff can
             produce over a certain period. A productive workplace.
           </p>
-          <span className='text-xs mt-2'>See More</span>
+          <span className='text-xs mt-2 hover:cursor-pointer text-blue-600'>See More</span>
         </div>
 
         <div className='w-full bg-white p-4 rounded md:h-1/5'>
           <Image
             className='mb-4 rounded'
-            src={require('./../../../public/team_img3.jpg')}
+            src={TeamThree}
             alt="Close Nav Bar"
-            height={300}
-          // width={300}
+            style={{
+              width: '100%',
+              height: 'auto',
+            }}
           />
           <h1 className='font-semibold text-lg'>High Speed Wifi</h1>
-          <span className='text-xs mt-2'>See More</span>
+          <span className='text-xs mt-2 hover:cursor-pointer text-blue-600'>See More</span>
         </div>
       </div>
     </div>

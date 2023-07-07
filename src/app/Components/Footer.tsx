@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className='w-full py-5 md:py-10 2xl:py-14 flex justify-center border-t	border-t-slate-600'>
+      <div className='w-full py-5 md:py-10 flex justify-center border-t	border-t-slate-600'>
         <div className='flex flex-row items-center'>
           <CopyrightIcon className='mr-1 text-lg' />
           <h1 className='text-xs'>2023 Aviera. All rights reserved.</h1>
