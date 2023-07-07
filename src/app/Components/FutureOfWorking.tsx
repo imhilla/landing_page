@@ -33,7 +33,7 @@ export default function FutureOfWorking() {
       </div>
       <div className='md:w-1/2 flex justify-center items-center'>
         <Image
-          className='mb-8 md:mb-0'
+          className='mb-0 mt-8 md:mb-0'
           src={futureOfWork}
           alt="Close Nav Bar"
           style={{
