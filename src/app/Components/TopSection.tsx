@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Header from './Header'
 import Image from 'next/image'
@@ -6,7 +7,8 @@ import face2 from '../../../public/faces/face2.jpg'
 import face3 from '../../../public/faces/face3.jpg'
 import face4 from '../../../public/faces/face4.jpg'
 import face5 from '../../../public/faces/face5.jpg'
-
+import StarIcon from '@mui/icons-material/Star';
+import StarHalfIcon from '@mui/icons-material/StarHalf';
 export default function TopSection() {
   return (
     <div className='min-h-screen bg-white '>
@@ -24,7 +26,7 @@ export default function TopSection() {
             Get In Touch
           </button>
           <div className='flex items-center relative w-full my-4 flex-wrap'>
-            <div className='relative flex items-center w-3/5 h-16 mr-0 md:mr-2'>
+            <div className='relative flex items-center w-3/6 h-16 mr-3 md:mr-2'>
               <div className='h-14 w-14 absolute z-10'>
                 <Image
                   className='rounded-full bg-white p-1'
@@ -83,7 +85,13 @@ export default function TopSection() {
             </div>
             <div className='flex flex-col items-center justify-center font-semibold'>
               <h1 className='text-sm'>4.8/5</h1>
-              <h1>Rating</h1>
+              <span className='flex flex-row'>
+                <StarIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
+                <StarIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
+                <StarIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
+                <StarIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
+                <StarHalfIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
+              </span>
             </div>
 
             <div className='flex flex-row items-center w-full'>
@@ -94,7 +102,13 @@ export default function TopSection() {
               </div>
               <div className='hidden'>
                 <h1>4.8/5</h1>
-                <span></span>
+                <span className='flex flex-row'>
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                  <StarIcon />
+                </span>
                 <h1>Rating</h1>
               </div>
             </div>
