@@ -23,8 +23,8 @@ export default function TopSection() {
             className='self-start py-3.5 text-white text-sm font-semibold px-5 mb-4 rounded mt-4'>
             Get In Touch
           </button>
-          <div className='flex items-center mt-4'>
-            <div className='relative flex items-center w-1/5 mr-2'>
+          <div className='flex items-center relative w-full my-4 flex-wrap'>
+            <div className='relative flex items-center w-3/5 h-16 mr-2'>
               <div className='h-14 w-14 absolute z-10'>
                 <Image
                   className='rounded-full bg-white p-1'
@@ -81,18 +81,24 @@ export default function TopSection() {
                 />
               </div>
             </div>
-            <div className='flex flex-row items-center w-1/2'>
-              <div className=''>
-                <h1 className='text-sm font-semibold'>
+            <div className='flex flex-col items-center justify-center font-semibold'>
+              <h1 className='text-sm'>4.8/5</h1>
+              <h1>Rating</h1>
+            </div>
+
+            <div className='flex flex-row items-center w-full'>
+              <div className='mt-4'>
+                <h1 className='text-sm'>
                   12,000+ people already used Aviera to enhance their productivity
                 </h1>
               </div>
-              <div>
+              <div className='hidden'>
                 <h1>4.8/5</h1>
                 <span></span>
                 <h1>Rating</h1>
               </div>
             </div>
+
           </div>
         </div>
         <div>

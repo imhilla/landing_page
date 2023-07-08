@@ -7,9 +7,12 @@ import Location from '../../../public/location.png'
 import Mug from '../../../public/mug.png'
 export default function ModernConviniences() {
   return (
-    <div className='min-h-screen bg-white p-10 md:p-20 lg:p-30 2xl:p-40 flex flex-col justify-center items-center w-full'>
+    <div className='min-h-screen bg-white p-10 md:p-20 lg:p-20 2xl:p-40 flex flex-col justify-center items-center w-full'>
       <div className='w-full lg:h-3/4 flex flex-col justify-between items-center'>
-        <h1 className='font-semibold mb-4 md:w-3/6 text-center text-2xl md:text-4xl'>The modern conviniences of this co-working place</h1>
+        <h1 className='w-full flex flex-col items-center justify-center'>
+          <h1 className='font-semibold mb-4 md:w-3/6 text-center text-2xl md:text-4xl'>The modern conviniences of this</h1>
+          <h1 className='font-semibold mb-4 md:w-3/6 text-center text-2xl md:text-4xl leading-3'>co-working place</h1>
+        </h1>
         <div className='w-full grid gap-5 grid-cols-1 md:flex mt-4 md:mt-8'>
           <div className='w-full md:w-2/4 bg-slate-100 lg:h-1/2 p-8 rounded flex flex-col justify-center items-center shadow-lg hover:bg-white transition duration-150 ease-in-out'>
             <div className='w-1/3'>
