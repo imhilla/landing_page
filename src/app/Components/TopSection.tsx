@@ -16,7 +16,7 @@ export default function TopSection() {
       <Header />
       <div className='flex flex-col p-10 md:px-20 2xl:px-40 md:flex-row h-full'>
         <div className='flex flex-col md:w-1/2 justify-between h-full'>
-          <h1 className='font-bold mb-4 md:mt-4 self-start text-2xl md:text-5xl'>Find A Comfortable Worlplace</h1>
+          <h1 className='font-bold mb-4 md:mt-10 self-start text-2xl md:text-5xl'>Find A Comfortable Worlplace</h1>
           <p className='text-sm md:w-2/3 my-5 font-medium'>
             From costs savings to increased collaboration opportunities,
             coworking spaces can make for ideal offices, especially for small and growing businesses.
