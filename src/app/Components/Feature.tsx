@@ -5,12 +5,13 @@ import yahooImage from '../../../public/yahoo.png'
 import productHuntImage from '../../../public/product_hunt.png'
 import bingImage from '../../../public/bing.png'
 import envantImage from '../../../public/envanto.png'
+import styles from '../Styles/scroll.module.css'
 
 export default function Feature() {
   return (
     <div className='w-full flex flex-col items-center justify-center px-10 bg-white'>
       <h1 className='font-semibold mb-8 self-center text-2xl md:text-4xl'>We are featured on</h1>
-      <div className='w-full flex flex-col items-center justify-center md:flex-row'>
+      <div className={`w-full flex flex-col items-center justify-center md:flex-row`}>
         <div className='w-full flex justify-center items-center'>
           <Image
             className='mb-8 md:mb-0'
