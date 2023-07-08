@@ -15,8 +15,8 @@ export default function TopSection() {
     <div className='min-h-screen bg-white flex flex-col justify-between'>
       <Header />
       <div className='flex flex-col p-10 md:p-20 2xl:p-40 md:flex-row h-full'>
-        <div className='flex flex-col md:w-1/2 justify-between h-full'>
-          <h1 className='font-bold mb-4 self-start text-2xl md:text-5xl'>Find A Comfortable Worlplace</h1>
+        <div className='flex flex-col md:w-3/8 justify-between h-full'>
+          <h1 className='font-bold mb-4 md:mt-4 self-start text-2xl md:text-5xl'>Find A Comfortable Worlplace</h1>
           <p className='text-sm md:w-2/3 my-5 font-medium'>
             From costs savings to increased collaboration opportunities,
             coworking spaces can make for ideal offices, especially for small and growing businesses.
@@ -27,7 +27,7 @@ export default function TopSection() {
             Get In Touch
           </button>
           <div className='flex items-center relative w-full my-4 flex-wrap md:flex-nowrap'>
-            <div className='relative flex items-center w-3/6 md:w-1/5 h-16 mr-3 md:mr-2'>
+            <div className='relative flex items-center w-3/6 md:w-1/5 h-16 mr-3 md:mr-5'>
               <div className='h-14 w-14 absolute z-10'>
                 <Image
                   className='rounded-full bg-white p-1'
@@ -97,7 +97,7 @@ export default function TopSection() {
 
             <div className='flex flex-row items-center w-full md:w-1/2'>
               <div className='mt-4'>
-                <h1 className='text-sm font-medium'>
+                <h1 className='text-xs font-medium'>
                   12,000+ people already used Aviera to enhance their productivity
                 </h1>
               </div>
@@ -114,7 +114,7 @@ export default function TopSection() {
             </div>
           </div>
         </div>
-        <div className='w-full md:w-1/2 bg-white h-full self-start'>
+        <div className='w-full md:w-5/8 bg-white h-full self-start'>
           <Image
             src={Illustration}
             className='mb-0 md:mb-8'
