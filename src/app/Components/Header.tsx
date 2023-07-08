@@ -8,6 +8,7 @@ export default function Header() {
       <MenuIcon className='md:hidden m-0' />
       <div className='w-16 md:w-32'>
         <Image
+          className='hover:cursor-pointer'
           src={logo}
           alt="logo"
           style={{
@@ -16,14 +17,15 @@ export default function Header() {
           }}
         />
       </div>
-      <div className='flex flex-row justify-between w-1/2 px-20 font-semibold text-sm'>
-        <a>Demo</a>
-        <a>About</a>
-        <a>Blog</a>
-        <a>Pages</a>
-        <a>Contacts</a>
+      <div className='hidden md:flex flex-row justify-between w-1/2 px-20 font-semibold text-sm'>
+        <a className='hover:cursor-pointer'>Demo</a>
+        <a className='hover:cursor-pointer'>About</a>
+        <a className='hover:cursor-pointer'>Blog</a>
+        <a className='hover:cursor-pointer'>Pages</a>
+        <a className='hover:cursor-pointer'>Contacts</a>
       </div>
-      <div className='flex flex-row justify-center items-center'>
+      <div className='md:hidden mb-0'></div>
+      <div className='hidden md:flex flex-row justify-center items-center'>
         <div className='mr-4'>
           <a className='font-semibold text-sm'>Sign In</a>
         </div>
