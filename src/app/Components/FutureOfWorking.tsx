@@ -12,7 +12,7 @@ export default function FutureOfWorking() {
           produce over a certain period. A productive workplace more engaged employees and
           improved performance metrics.
         </p>
-        <div className='grid grid-cols-2 gap-5 md:gap-9 md:mt-8 md:self-start'>
+        <div className='grid grid-cols-2 mt-4  gap-5 md:gap-9 md:mt-8 md:self-start'>
           <div className='flex flex-col justify-center items-center'>
             <h1 className='text-orange-600 text-4xl font-semibold'>1.5M</h1>
             <h1 className='text-center text-sm mt-4'>Active Customers</h1>
@@ -31,13 +31,13 @@ export default function FutureOfWorking() {
           </div>
         </div>
       </div>
-      <div className='md:w-1/2 flex justify-center items-center'>
+      <div className='w-full md:w-1/2 flex justify-center items-center'>
         <Image
           className='mb-0 mt-8 md:mb-0'
           src={futureOfWork}
           alt="Close Nav Bar"
           style={{
-            width: '80%',
+            width: '100%',
             height: 'auto',
           }}
         />

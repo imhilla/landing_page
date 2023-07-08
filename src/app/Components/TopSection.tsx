@@ -24,7 +24,7 @@ export default function TopSection() {
             Get In Touch
           </button>
           <div className='flex items-center relative w-full my-4 flex-wrap'>
-            <div className='relative flex items-center w-3/5 h-16 mr-2'>
+            <div className='relative flex items-center w-3/5 h-16 mr-0 md:mr-2'>
               <div className='h-14 w-14 absolute z-10'>
                 <Image
                   className='rounded-full bg-white p-1'
