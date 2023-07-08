@@ -114,9 +114,10 @@ export default function TopSection() {
             </div>
           </div>
         </div>
-        <div className='w-1/2 bg-white'>
+        <div className='w-1/2 bg-white h-full self-start'>
           <Image
             src={Illustration}
+            className='mb-0 md:mb-8'
             alt="illustration"
             style={{
               width: '100%',
