@@ -20,12 +20,12 @@ export default function Header() {
           }}
         />
       </div>
-      <div className='hidden md:flex flex-row justify-between w-1/2 px-20 font-semibold text-sm'>
-        <a className='hover:cursor-pointer'>Demo</a>
-        <a className='hover:cursor-pointer'>About</a>
-        <a className='hover:cursor-pointer'>Blog</a>
-        <a className='hover:cursor-pointer'>Pages</a>
-        <a className='hover:cursor-pointer'>Contacts</a>
+      <div className='hidden md:flex flex-row justify-between w-1/2 px-20'>
+        <a className='hover:cursor-pointer font-semibold text-sm'>Demo</a>
+        <a className='hover:cursor-pointer font-semibold text-sm'>About</a>
+        <a className='hover:cursor-pointer font-semibold text-sm'>Blog</a>
+        <a className='hover:cursor-pointer font-semibold text-sm'>Pages</a>
+        <a className='hover:cursor-pointer font-semibold text-sm'>Contacts</a>
       </div>
       <div className='md:hidden mb-0'></div>
       <div className='hidden md:flex flex-row justify-center items-center'>
