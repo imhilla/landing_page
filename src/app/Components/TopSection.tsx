@@ -9,6 +9,7 @@ import face4 from '../../../public/faces/face4.jpg'
 import face5 from '../../../public/faces/face5.jpg'
 import StarIcon from '@mui/icons-material/Star';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
+import Illustration from '../../../public/illustration.jpg'
 export default function TopSection() {
   return (
     <div className='min-h-screen bg-white flex flex-col justify-between'>
@@ -31,7 +32,7 @@ export default function TopSection() {
                 <Image
                   className='rounded-full bg-white p-1'
                   src={face1}
-                  alt="Close Nav Bar"
+                  alt="face1"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -42,7 +43,7 @@ export default function TopSection() {
                 <Image
                   className='rounded-full bg-white p-1'
                   src={face2}
-                  alt="Close Nav Bar"
+                  alt="face2"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -53,7 +54,7 @@ export default function TopSection() {
                 <Image
                   className='rounded-full bg-white p-1'
                   src={face3}
-                  alt="Close Nav Bar"
+                  alt="face3"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -64,7 +65,7 @@ export default function TopSection() {
                 <Image
                   className='rounded-full bg-white p-1'
                   src={face4}
-                  alt="Close Nav Bar"
+                  alt="face4"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -75,7 +76,7 @@ export default function TopSection() {
                 <Image
                   className='rounded-full bg-white p-1'
                   src={face5}
-                  alt="Close Nav Bar"
+                  alt="face5"
                   style={{
                     width: '100%',
                     height: '100%',
@@ -113,8 +114,15 @@ export default function TopSection() {
             </div>
           </div>
         </div>
-        <div>
-          image
+        <div className='w-1/2 bg-white'>
+          <Image
+            src={Illustration}
+            alt="illustration"
+            style={{
+              width: '100%',
+              height: '100%',
+            }}
+          />
         </div>
       </div>
     </div>
