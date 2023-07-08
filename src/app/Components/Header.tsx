@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 export default function Header() {
   return (
     <div className='flex flex-row w-full justify-between items-center mb-4'>
-      <MenuIcon className='md:hidden m-0' />
+      <MenuIcon className='md:hidden md:w-0' />
       <div className='w-16 md:w-32'>
         <Image
           className='hover:cursor-pointer'
