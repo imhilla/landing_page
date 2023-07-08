@@ -114,7 +114,7 @@ export default function TopSection() {
             </div>
           </div>
         </div>
-        <div className='w-1/2 bg-white h-full self-start'>
+        <div className='w-full md:w-1/2 bg-white h-full self-start'>
           <Image
             src={Illustration}
             className='mb-0 md:mb-8'
