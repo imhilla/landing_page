@@ -16,7 +16,7 @@ export default function TopSection() {
       <div className='flex flex-col p-10 md:p-20 2xl:p-40 md:flex-row'>
         <div className='flex flex-col md:w-1/2'>
           <h1 className='font-bold mb-4 self-start text-2xl md:text-5xl'>Find A Comfortable Worlplace</h1>
-          <p className='text-sm md:w-2/3 my-5'>
+          <p className='text-sm md:w-2/3 my-5 font-semibold'>
             From costs savings to increased collaboration opportunities,
             coworking spaces can make for ideal offices, especially for small and growing businesses.
           </p>
@@ -25,8 +25,8 @@ export default function TopSection() {
             className='self-start py-3.5 text-white text-sm font-semibold px-5 mb-4 rounded mt-4'>
             Get In Touch
           </button>
-          <div className='flex items-center relative w-full my-4 flex-wrap'>
-            <div className='relative flex items-center w-3/6 h-16 mr-3 md:mr-2'>
+          <div className='flex items-center relative w-full my-4 flex-wrap md:flex-nowrap'>
+            <div className='relative flex items-center w-3/6 md:w-1/5 h-16 mr-3 md:mr-2'>
               <div className='h-14 w-14 absolute z-10'>
                 <Image
                   className='rounded-full bg-white p-1'
@@ -83,7 +83,7 @@ export default function TopSection() {
                 />
               </div>
             </div>
-            <div className='flex flex-col items-center justify-center font-semibold'>
+            <div className='flex flex-col items-center justify-center font-semibold md:hidden md:w-0'>
               <h1 className='text-sm'>4.8/5</h1>
               <span className='flex flex-row'>
                 <StarIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
@@ -94,25 +94,23 @@ export default function TopSection() {
               </span>
             </div>
 
-            <div className='flex flex-row items-center w-full'>
+            <div className='flex flex-row items-center w-full md:w-1/2'>
               <div className='mt-4'>
-                <h1 className='text-sm'>
+                <h1 className='text-sm font-medium'>
                   12,000+ people already used Aviera to enhance their productivity
                 </h1>
               </div>
-              <div className='hidden'>
-                <h1>4.8/5</h1>
+              <div className='hidden md:flex flex-col items-center justify-center'>
+                <h1 className='text-sm'>4.8/5</h1>
                 <span className='flex flex-row'>
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
-                  <StarIcon />
+                  <StarIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
+                  <StarIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
+                  <StarIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
+                  <StarIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
+                  <StarHalfIcon className='text-xl' style={{ color: 'rgba(22, 29, 73, 255)' }} />
                 </span>
-                <h1>Rating</h1>
               </div>
             </div>
-
           </div>
         </div>
         <div>
