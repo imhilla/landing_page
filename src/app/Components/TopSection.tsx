@@ -14,7 +14,7 @@ export default function TopSection() {
   return (
     <div className='min-h-screen bg-white flex flex-col justify-between'>
       <Header />
-      <div className='flex flex-col p-10 md:p-20 2xl:p-40 md:flex-row h-full'>
+      <div className='flex flex-col p-10 md:px-20 2xl:px-40 md:flex-row h-full'>
         <div className='flex flex-col md:w-1/2 justify-between h-full'>
           <h1 className='font-bold mb-4 md:mt-4 self-start text-2xl md:text-5xl'>Find A Comfortable Worlplace</h1>
           <p className='text-sm md:w-2/3 my-5 font-medium'>
@@ -120,8 +120,8 @@ export default function TopSection() {
             className='mb-0 md:mb-8'
             alt="illustration"
             style={{
-              width: '100%',
-              height: '100%',
+              width: '90%',
+              height: 'auto',
             }}
           />
         </div>
