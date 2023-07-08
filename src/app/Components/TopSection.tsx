@@ -23,7 +23,7 @@ export default function TopSection() {
           </p>
           <button
             style={{ backgroundColor: '#161d49' }}
-            className='self-start py-3.5 text-white text-sm font-semibold px-5 mb-4 rounded mt-4'>
+            className='self-start py-3 text-white text-sm font-medium px-4 mb-4 rounded mt-4'>
             Get In Touch
           </button>
           <div className='flex items-center relative w-full my-4 flex-wrap md:flex-nowrap'>
