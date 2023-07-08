@@ -15,7 +15,7 @@ export default function Header() {
           src={logo}
           alt="logo"
           style={{
-            width: '60%',
+            width: '50%',
             height: 'auto',
           }}
         />
