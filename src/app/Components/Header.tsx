@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import logo from '../../../public/aviera_logo.png'
 import Image from 'next/image'
@@ -5,7 +6,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 export default function Header() {
   return (
     <div className='flex flex-row w-full justify-between items-center mb-4'>
-      <MenuIcon className='md:hidden md:w-0' />
+      <div className='md:hidden md:w-0' >
+        <MenuIcon />
+      </div>
       <div className='w-16 md:w-32'>
         <Image
           className='hover:cursor-pointer'
