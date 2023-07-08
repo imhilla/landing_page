@@ -11,12 +11,12 @@ import StarIcon from '@mui/icons-material/Star';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 export default function TopSection() {
   return (
-    <div className='min-h-screen bg-white '>
-      {/* <Header /> */}
-      <div className='flex flex-col p-10 md:p-20 2xl:p-40 md:flex-row'>
-        <div className='flex flex-col md:w-1/2'>
+    <div className='min-h-screen bg-white flex flex-col justify-between'>
+      <Header />
+      <div className='flex flex-col p-10 md:p-20 2xl:p-40 md:flex-row h-full'>
+        <div className='flex flex-col md:w-1/2 justify-between h-full'>
           <h1 className='font-bold mb-4 self-start text-2xl md:text-5xl'>Find A Comfortable Worlplace</h1>
-          <p className='text-sm md:w-2/3 my-5 font-semibold'>
+          <p className='text-sm md:w-2/3 my-5 font-medium'>
             From costs savings to increased collaboration opportunities,
             coworking spaces can make for ideal offices, especially for small and growing businesses.
           </p>
