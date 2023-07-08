@@ -14,7 +14,7 @@ export default function TopSection() {
   return (
     <div className='min-h-screen bg-white flex flex-col justify-between p-10 md:px-20 2xl:px-40'>
       <Header />
-      <div className='flex flex-col md:flex-row h-full'>
+      <div className='flex flex-col md:flex-row h-full mt-4 md:mt-0'>
         <div className='flex flex-col md:w-1/2 justify-between h-full'>
           <h1 className='font-bold mb-4 md:mt-10 self-start text-2xl md:text-5xl'>Find A Comfortable Worlplace</h1>
           <p className='text-sm md:w-2/3 my-5'>
